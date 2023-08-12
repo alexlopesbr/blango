@@ -2,4 +2,11 @@
 {% load static %}
 {% block content %}
 <script src="{% static "blog/blog.js" %}"></script>
+<script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>
+<script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
+<div class="row">
+    <div class="col">
+        <div id="react_root"></div>
+    </div>
+</div>
 {% endblock %}
